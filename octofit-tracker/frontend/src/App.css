@@ -1,0 +1,92 @@
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.octofit-navbar {
+  background: linear-gradient(90deg, #2d3142 0%, #4f5d75 100%);
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.15);
+}
+
+.octofit-logo {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 50%;
+  border: 2px solid #4f5d75;
+  margin-right: 8px;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #f9fafc !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-nav .nav-link.active {
+  color: #fbb13c !important;
+}
+.navbar-nav .nav-link:hover {
+  color: #e07a5f !important;
+}
+
+h2, h1, h3, h4, h5 {
+  color: #22223b;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #3a86ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #e07a5f;
+  text-decoration: underline;
+}
+
+button, .btn {
+  background: linear-gradient(90deg, #fbb13c 0%, #e07a5f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(44, 62, 80, 0.08);
+  transition: background 0.2s;
+}
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #e07a5f 0%, #fbb13c 100%);
+}
+
+table {
+  width: 100%;
+  background: #f9fafc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+th {
+  background: #4f5d75;
+  color: #fff;
+  font-weight: 700;
+}
+tr:last-child td {
+  border-bottom: none;
+}
+
+.container {
+  background: rgba(255,255,255,0.95);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.10);
+  padding: 2rem 2.5rem;
+  margin-bottom: 2rem;
+}
